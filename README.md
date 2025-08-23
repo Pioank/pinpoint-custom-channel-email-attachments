@@ -1,5 +1,7 @@
 # Amazon Pinpoint custom channel for email attachments
 
+[Original project](https://github.com/aws-samples/communication-developer-services-reference-architectures/tree/master/cloudformation/Pinpoint_Custom_Channel_Attachment)
+
 Amazon Pinpoint currently doesn't support attachments when sending emails via Campaigns or Journeys. Customers have to use the Amazon SES SendRawMessage API operation to attach files, which lacks features such as customer segmentation and scheduling.
 
 Email attachments are key to many use cases, some of them are:
